@@ -13,6 +13,7 @@ public class Song
     [Required]
     public int Length { get; set; }
 
+    //Kopplar en specifik kategori till låten som lägg till
     public int? CategoryId { get; set; }
     public Category? Category { get; set; }
 }

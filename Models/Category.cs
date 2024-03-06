@@ -11,6 +11,7 @@ public class Category
 
     public string? Name { get; set; }
 
+    //Kopplar listan med sånger till den specifika kategorin
     public List<Song>? Songs { get; set; }
 }
 
